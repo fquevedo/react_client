@@ -1,0 +1,30 @@
+html {
+    background: rgb(122, 133, 153); 
+}
+
+body {
+    background: rgb(122, 133, 153); 
+    margin: 0;
+  }
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 29.7cm; 
+    padding: 3cm;
+    text-align: center;
+}
+
+.page_preview {
+    background: white;
+    display: block;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: calc(21cm*0.45);
+    height: calc(29.7cm*0.45); 
+    padding: 1cm;
+    text-align: center; 
+    font-size: 8px;
+}
